@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Green Room Support</title>
+<style>
+:root { color-scheme: light dark; --bg: #ffffff; --text: #1c1c1e; --muted: #5f5f66;
+  --rule: #e2e2e6; --accent: #1f7a4d; --code-bg: #f2f2f5; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #111113; --text: #ececf0; --muted: #a2a2ab; --rule: #2c2c31;
+    --accent: #5fd39a; --code-bg: #1e1e22; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 16px; }
+h2 { font-size: 1.35rem; margin: 40px 0 8px; }
+h3 { font-size: 1.1rem; margin: 28px 0 6px; }
+a { color: var(--accent); overflow-wrap: anywhere; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 32px 0; }
+code { background: var(--code-bg); border-radius: 4px; padding: 1px 5px; font-size: 0.9em;
+  overflow-wrap: anywhere; }
+ul, ol { padding-left: 1.4em; }
+li { margin: 4px 0; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--rule); }
+th { color: var(--muted); font-weight: 600; }
+footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Green Room Support</h1>
+<p>Need help with Green Room? Email <a href="mailto:greenroomappinfo@gmail.com">greenroomappinfo@gmail.com</a>.</p>
+<p>To help us help you, please include:</p>
+<ul><li>what you were doing and what happened;</li><li>a screenshot, if you can;</li><li>the <strong>app version</strong> shown at the bottom of the Profile screen.</li></ul>
+<p>Please don't send your Export My Data file unless we ask for it. It contains your saved records and preferences, including deleted items and publishing identifiers.</p>
+<hr>
+<h2>Common questions</h2>
+<p><strong>Where is my data stored?</strong> In the app on your phone. There's no account and no Green Room server. See the <a href="privacy.html">Privacy Policy</a> for exactly what leaves the app and when.</p>
+<p><strong>How do I keep a copy of my data?</strong> Profile → <strong>Export My Data</strong> creates a file with your gigs, contacts, jokes, notes, sets, recording details and settings. Save it to Files or somewhere safe. Recording audio isn't in that file: use <strong>Export Audio</strong> on each recording. Green Room can't import the export file back into the app yet; it's a copy you can keep and read.</p>
+<p><strong>I deleted the app. Can I get my data back?</strong> We can't recover data from a deleted app; there's no copy on a Green Room server. Your exported files and exported audio are still yours, and your iPhone's own backups (iCloud or a computer) may let you restore the app, but that's Apple's process, not Green Room's. When updating Green Room, never delete the app first; install the new version over it.</p>
+<p><strong>My gig didn't show up on my calendar.</strong> Open the gig and check its Publishing card. If something needs attention, it tells you what to do (for example, Retry or Reconnect). Green Room may also retry temporary problems, like no connection, on its own when you next open the app.</p>
+<p><strong>Google Calendar asks me to reconnect.</strong> Google sometimes ends a sign-in, for example after you change your Google password. Go to Profile → Publishing and connect again.</p>
+<p><strong>I disconnected Google. Why are my events still on my calendar?</strong> Disconnecting stops Green Room from sending anything more to Google. It doesn't delete events that are already there. Remove them in Google Calendar, or reconnect and unpublish the gigs.</p>
+<p><strong>My calendar events show my pay. How do I hide it?</strong></p>
+<ol><li>Go to Profile → Publishing → Templates.</li><li>Open <strong>Google notes</strong> and/or <strong>Device notes</strong>, remove the line <code>Pay: {payWithStatus}</code> (and any other pay field you added), and save.</li><li>Open each gig that's already published and tap <strong>Update</strong> for that calendar.</li><li>Check your calendar. Changing a template doesn't change events that already exist until you update them.</li></ol>
+<p><strong>Green Room can't record.</strong> Check that the microphone is allowed: iPhone Settings → Green Room → Microphone.</p>
+<p><strong>A recording stopped when my phone died.</strong> Green Room saves markers as you tap them, and tries to recover an unfinished recording the next time it opens. Audio from a recording that was cut off may be missing or may not play.</p>
+<hr>
+<p><a href="privacy.html">Privacy Policy</a></p>
+<footer><a href="index.html">Green Room</a> · <a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a></footer>
+</main>
+</body>
+</html>

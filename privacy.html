@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Green Room Privacy Policy</title>
+<style>
+:root { color-scheme: light dark; --bg: #ffffff; --text: #1c1c1e; --muted: #5f5f66;
+  --rule: #e2e2e6; --accent: #1f7a4d; --code-bg: #f2f2f5; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #111113; --text: #ececf0; --muted: #a2a2ab; --rule: #2c2c31;
+    --accent: #5fd39a; --code-bg: #1e1e22; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 16px; }
+h2 { font-size: 1.35rem; margin: 40px 0 8px; }
+h3 { font-size: 1.1rem; margin: 28px 0 6px; }
+a { color: var(--accent); overflow-wrap: anywhere; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 32px 0; }
+code { background: var(--code-bg); border-radius: 4px; padding: 1px 5px; font-size: 0.9em;
+  overflow-wrap: anywhere; }
+ul, ol { padding-left: 1.4em; }
+li { margin: 4px 0; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--rule); }
+th { color: var(--muted); font-weight: 600; }
+footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Green Room Privacy Policy</h1>
+<p><strong>Effective date:</strong> October 14, 2026</p>
+<p>Green Room is an app for stand-up comedians: gigs, jokes, sets, recordings and publishing your shows. It is made by Who's Fancy Media, LLC ("we").</p>
+<p><strong>The short version:</strong> Green Room keeps your data in the app on your phone. There's no Green Room account and no Green Room server, and we can't remotely see anything you store. We have no advertising and no product-usage analytics, and we sell nothing. We use Sentry for crash and reliability diagnostics. Apart from those diagnostics and app updates, your information leaves the app only when you use a feature that needs it: Google Calendar, your iPhone calendar or contacts, mileage lookups, links and images in gig notes, and anything you choose to share or export. Each is described below.</p>
+<hr>
+<h2>What Green Room stores locally</h2>
+<p>Green Room stores what you put into it inside the app on your phone:</p>
+<ul><li><strong>Gigs:</strong> venues, show names, addresses, dates and times, pay and payment status, expenses and mileage, hotel and rental car details, people on the show, notes, and files or photos you attach.</li><li><strong>Contacts</strong> in Green Room: names, companies, phone numbers, emails, roles and notes.</li><li><strong>Jokes, notes (including Writer's Block output you save to Notepad), sets and workflow stages.</strong></li><li><strong>Recordings:</strong> the audio files, plus their markers, notes and set lists.</li><li><strong>Publishing records and history:</strong> which gigs are on which calendar; the calendar, the Google account (identified by its primary calendar ID) and the event IDs they were published to; and a log of each publish, update, retry, removal and share, including the gig's title at the time.</li><li><strong>Settings and profile:</strong> your display name and profile photo, theme, home address (if you enter it for mileage), templates, lists and preferences.</li><li><strong>An install ID:</strong> a random code that lets Green Room recognize the iPhone calendar events this copy of the app created. It identifies the installation, not you. It isn't sent anywhere during normal use, but it is part of the publishing records in Export My Data.</li><li><strong>Settings backups:</strong> before Green Room replaces saved settings it can't read, it keeps the original stored text. If it can't keep a copy, it doesn't make the change.</li><li><strong>Your Google sign-in</strong>, if you connect Google Calendar, stored in the iOS Keychain.</li></ul>
+<p><strong>Deleting items.</strong> When you delete a gig, joke, contact or other record, it's kept in the app's database as a hidden deletion marker rather than wiped right away. Deleting a recording also deletes its audio file. Attachment and profile-photo files you remove or replace may stay in the app's private storage.</p>
+<p><strong>Deleting the app</strong> removes its database and files from your phone. It does not delete calendar events, contacts you saved to your iPhone, files you shared or exported, or your iPhone backups. Your Google sign-in may survive in the iOS Keychain if you reinstall; use <strong>Disconnect Google Account</strong> first to clear it.</p>
+<p><strong>iPhone backups.</strong> Depending on your iPhone's settings, iCloud Backup or a computer backup may copy Green Room's database and saved files. Apple or your computer manages those backups, not a Green Room server. Green Room has no cloud backup or restore of its own.</p>
+<hr>
+<h2>What leaves the app, and when</h2>
+<h3>Crash and reliability diagnostics (Sentry)</h3>
+<p>When a JavaScript error happens in the app, including some errors the app catches and handles, and when the app finds a record it can't read, Green Room sends a report to Sentry, a crash-reporting service. An error report contains:</p>
+<ul><li>the app version and build, your device model, and the iOS version;</li><li>where in the app's code the error happened (a stack trace);</li><li>the error's type and a fixed message written by us;</li><li>a few fixed labels, such as which kind of record was involved (for example "gig") and version numbers.</li></ul>
+<p>Error reports are filtered on your phone before they are sent: only fields on a fixed list are allowed out, and error messages that could contain your content are replaced with "[redacted]". Reports <strong>never</strong> contain your jokes, gigs, venues, contacts, notes, recordings, record IDs, or anything else you typed.</p>
+<p>Sentry's software also sends reliability information that doesn't go through that filter: random session and installation identifiers, when a session started and how it ended, the app version and environment, and counts of reports that couldn't be delivered. It contains no content from the app. Native crash, app-freeze and watchdog reporting are turned off. Like any internet service, Sentry sees the network (IP) address a report comes from. Sentry's privacy policy: <a href="https://sentry.io/privacy/">https://sentry.io/privacy/</a>.</p>
+<h3>App updates (Expo)</h3>
+<p>When it opens, Green Room checks Expo's update service for a compatible newer version and downloads its code and assets if there is one. These requests include platform and version information, update identifiers, and a random installation identifier created by Expo, and Expo sees your IP address. If the app has failed with a fatal error, Expo's recovery system may also send a short description of that error. That description doesn't go through Green Room's Sentry filter. Expo's privacy policy: <a href="https://expo.dev/privacy">https://expo.dev/privacy</a>.</p>
+<h3>Google Calendar (only if you connect it)</h3>
+<p><strong>Access.</strong> When you connect, you sign in with Google and grant Green Room permission to view your calendars and to view, create, change and delete events (the <code>calendar.readonly</code> and <code>calendar.events</code> permissions). Green Room doesn't ask for your name, email address or profile. It uses this access to:</p>
+<ul><li>list the calendars you can add events to, so you can choose one;</li><li>identify the connected account by its primary calendar ID, so events are always updated in the account that created them;</li><li>create, update, check and remove your gig events.</li></ul>
+<p>All of this goes directly between your phone and Google. Nothing passes through us. The account, calendar and event IDs needed to track your publications are stored in the app with your publishing history. Calendar lists are used only to show you your choices.</p>
+<p><strong>What's sent.</strong> One event for each night of a gig, with the event title, the notes, the location (address, city, state), the date and times with your time zone, and your reminder settings. With the default templates, the title is the show name or venue, and the notes include the venue, your role, <strong>your pay and whether you've been paid</strong>, the other comics on the show, and your gig notes. You can change what's included in Profile → Publishing → Templates. The Review &amp; Publish screen warns you when the calendar notes include pay.</p>
+<p><strong>When it's sent:</strong></p>
+<ul><li>when you publish a gig from Review &amp; Publish, or tap Update or Retry;</li><li><strong>afterward, automatically</strong>, when you edit a published gig or change its calendar settings, so the calendar stays correct. Changing a template or your default calendar settings doesn't update existing events by itself; the gig's Publishing card shows an Update button instead;</li><li><strong>automatic retries:</strong> when Green Room starts or comes back to the foreground, it retries pending calendar work (publishes, updates and removals) that failed for a temporary reason such as no connection. It normally waits at least ten minutes between tries and makes up to three automatic attempts. Other problems need you to tap Retry, Reconnect or another option. Retries use the gig, templates and settings as they are saved at that time. Calendar work pauses while you're recording;</li><li><strong>removal:</strong> when you unpublish or delete a published gig, Green Room queues removal of the events it tracks. Removal can be delayed or fail if there's no connection, or the account or permission isn't available; check the gig's Publishing card or Profile → Publishing → Publish Log, and remove anything left over in your calendar. <strong>Forget</strong> stops tracking events without deleting them;</li><li><strong>checks:</strong> Green Room asks Google whether events it created are still there, to avoid duplicates and to finish work that was interrupted, including when it starts up.</li></ul>
+<p><strong>Disconnecting.</strong> <strong>Disconnect Google Account</strong> (Profile → Publishing) deletes your Google sign-in from your phone, and Green Room stops sending anything to Google until you connect again. It does <strong>not</strong> delete events already on your calendar: remove those in Google Calendar, or unpublish the gigs before you disconnect. Disconnecting doesn't revoke Green Room's access on Google's side; to do that, visit <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>.</p>
+<p><strong>How we treat Google data.</strong> Green Room's use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Google data is used only to publish and manage your gig events on the calendar you choose. We don't sell it or use it for advertising. The Google account, calendar and event IDs in your publishing history are included when you choose Export My Data, so they go wherever you send that file. We don't otherwise share Google data, and we never see it unless you send it to us.</p>
+<h3>Your iPhone calendar (only if you publish there)</h3>
+<p>Green Room can add gig events to a calendar on your iPhone, with the same details as Google Calendar (title, notes, location, times, time zone) and alert reminders. Each event also carries a Green Room link (<code>greenroom://op/…</code>) that Green Room uses to find an event whose creation was interrupted. Events are created when you publish, and updated or removed automatically, the same way as for Google Calendar: when you edit or unpublish a published gig, change its calendar settings, delete it, or when a retry runs.</p>
+<p>To do this, iOS gives Green Room full access to your calendars. Green Room uses it to list your calendars, create, change and delete its gig events, and read events to check and recover its own work. That recovery can look at the other events on your calendar around the gig's date to find Green Room's link. Green Room doesn't send any of this anywhere.</p>
+<p>If the calendar you choose belongs to iCloud, Google, Exchange or another account, <strong>that provider syncs the events under its own terms.</strong></p>
+<h3>Your iPhone contacts (only if you use them)</h3>
+<p>To show a searchable list when you add someone from your contacts, Green Room reads the names, companies and phone numbers of the contacts you've allowed it to access. It saves only the people you pick, including their email addresses. <strong>Save to Phone</strong> writes a Green Room contact's name, company, phone numbers and emails to your iPhone's Contacts, and your contacts account may sync them. Nothing is sent anywhere by Green Room.</p>
+<h3>Mileage lookups</h3>
+<p>When you tap <strong>Get Mileage</strong>, Green Room sends the two addresses (for example, your home address and the venue's) to <strong>OpenStreetMap Nominatim</strong> to turn them into map coordinates, then sends those coordinates to the <strong>OSRM</strong> routing service to measure the driving distance. No other information from the app is sent. These are free public services run by others, and they see the addresses or coordinates and your IP address.</p>
+<ul><li>Nominatim: <a href="https://osmfoundation.org/wiki/Privacy_Policy">https://osmfoundation.org/wiki/Privacy_Policy</a></li><li>OSRM (Project OSRM demo server): <a href="https://project-osrm.org/">https://project-osrm.org/</a></li></ul>
+<h3>Links and images in gig notes</h3>
+<p>Gig notes can contain web links and, if you paste them in, images or other content from websites. Viewing or editing those notes can load that content from the websites that host it, which receive the requested address and your IP address. Tapping a link, ticket link, phone number, email address or attachment opens it in the matching app (Safari, Phone, Mail, and so on).</p>
+<h3>Sharing and exporting</h3>
+<p>Green Room shares only when you choose to, through the iOS share sheet:</p>
+<ul><li><strong>Share text…</strong> and <strong>Share text for Bandsintown…</strong> on Review &amp; Publish create text from your gig (by default: title, venue, address and place, date, times, ticket link and gig notes).</li><li><strong>Export Audio</strong> on a recording shares its audio file, named with the recording's title and date and time.</li><li><strong>Export My Data</strong> shares a data file (see below).</li></ul>
+<p>What happens next is up to the app or person you send it to. Exported copies can stay in the app's private cache until they're replaced or iOS clears them.</p>
+<hr>
+<h2>Export My Data</h2>
+<p><strong>Profile → Export My Data</strong> creates a data file containing:</p>
+<ul><li>every record in Green Room's database (gigs, contacts, jokes, notes, sets, recording details, workflow stages, and publishing records and history), <strong>including deleted items</strong>, which are marked as deleted;</li><li>any record the app couldn't read, <strong>exactly as it was stored</strong>;</li><li>your settings, profile, theme and color scheme, and any settings backups.</li></ul>
+<p>It does <strong>not</strong> include your Google sign-in, recording audio (use Export Audio on each recording), or the files and photos you attached or your profile photo; the file only lists where they're stored.</p>
+<p>Green Room can't currently import this file back into the app. It's a copy you can keep and read outside Green Room. Because it contains your publishing identifiers and deleted items, share it only with people you trust.</p>
+<hr>
+<h2>Permissions</h2>
+<p>Green Room asks for each permission when you first use the feature that needs it. You can change any of them in the iPhone Settings app.</p>
+<div class="table-wrap"><table><thead><tr><th>Permission</th><th>What it's used for</th></tr></thead><tbody><tr><td><strong>Microphone</strong></td><td>Recording your sets. Recording can continue while the phone is locked or you're in another app; calls, other audio, or the app closing can pause or stop it.</td></tr><tr><td><strong>Calendars</strong></td><td>Listing your calendars, adding, updating and removing your gig events, and reading events to check and recover Green Room's own calendar work (see above).</td></tr><tr><td><strong>Contacts</strong></td><td>Showing your contacts so you can pick people to add, and saving Green Room contacts to your iPhone when you tap Save to Phone (see above).</td></tr><tr><td><strong>Photos</strong></td><td>Choosing a profile photo or attaching a photo to a gig.</td></tr><tr><td><strong>Camera</strong></td><td>Taking a profile photo or a photo to attach to a gig.</td></tr></tbody></table></div>
+<hr>
+<h2>Contacting support</h2>
+<p>If you email us, we receive what you choose to send (your message, screenshots, or files) and use it only to help with your request. Please don't send your Export My Data file unless we ask for it.</p>
+<h2>Children</h2>
+<p>Green Room is not directed at children under 13, and we don't knowingly collect information from children.</p>
+<h2>Changes to this policy</h2>
+<p>If what Green Room does with your data changes (for example, if we add optional cloud backup), we'll update this page and its effective date before that change ships.</p>
+<h2>Contact</h2>
+<p>Questions about privacy: <a href="mailto:greenroomappinfo@gmail.com">greenroomappinfo@gmail.com</a></p>
+<footer><a href="index.html">Green Room</a> · <a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a></footer>
+</main>
+</body>
+</html>
